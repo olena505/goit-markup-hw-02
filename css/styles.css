@@ -47,7 +47,7 @@ body {
 .section-title {
     font-weight: var(--bold-font-weight);
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
     margin: 0 0 50px;
@@ -82,7 +82,8 @@ header.container {
     font-family: 'Raleway';
     font-weight: var(--bold-font-weight);
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -92,7 +93,8 @@ header.container {
 
 .menu-link {
     font-weight: var(--medium-font-weight);
-    line-height: 1.1;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -113,7 +115,8 @@ header.container {
 .menu-cont {
     color: var(--secondary-text-color);
     font-weight: var(--medium-font-weight);
-    line-height: 1.1;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .menu-item,
@@ -142,7 +145,7 @@ header.container {
     font-weight: 900;
     font-size: 44px;
     text-align: center;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     padding: 200px 452px 30px;
     margin: 0 0;
@@ -153,6 +156,8 @@ header.container {
     font-size: var(--secondary-font-size);
     color: var(--main-light-color);
     background-color: var(--accent-color);
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -194,8 +199,9 @@ header.container {
 
 .description-main {
     text-transform: uppercase;
+    font-size: var(--primary-font-size);
     font-weight: var(--bold-font-weight);
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     width: 270px;
     margin: 0 0 10px;
@@ -204,7 +210,7 @@ header.container {
 .description-content {
     color: var(--secondary-text-color);
     font-weight: var(--regular-font-weigh);
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     margin: 0 0;
 }
@@ -224,7 +230,7 @@ header.container {
 .team-name {
     font-weight: var(--medium-font-weight);
     font-size: var(--secondary-font-size);
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 30px 0 10px 0;
@@ -234,7 +240,7 @@ header.container {
     color: var(--secondary-text-color);
     font-weight: var(--regular-font-weigh);
     font-size: var(--secondary-font-size);
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0 0 30px;
@@ -251,23 +257,33 @@ footer .logo-studio {
     color: var(--main-light-color);
 }
 
-.adress-link,
 .mail-link,
 .tel-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: var(--regular-font-weigh);
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.adress-link:hover,
-.adress-link:focus,
+.adress-link {
+    color: var(--main-light-color);
+    font-style: normal;
+    font-weight: var(--regular-font-weigh);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 .mail-link:hover,
 .mail-link:focus,
 .tel-link:hover,
 .tel-link:focus {
     color: var(--main-light-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-list {
@@ -287,7 +303,7 @@ footer .logo-studio {
     background-color: var(--background-color-button);
     font-weight: var(--medium-font-weight);
     font-size: var(--secondary-font-size);
-    line-height: 1.6;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
@@ -310,7 +326,7 @@ footer .logo-studio {
 .view-title {
     font-weight: var(--bold-font-weight);
     font-size: 18px;
-    line-height: 2;
+    line-height: 2.00;
     letter-spacing: 0.06em;
     margin: 20px 24px 0;
 }
@@ -319,7 +335,7 @@ footer .logo-studio {
     color: var(--secondary-text-color);
     font-weight: var(--regular-font-weigh);
     font-size: var(--secondary-font-size);
-    line-height: 1.9;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     margin: 4px 24px 20px;
 }
