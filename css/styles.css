@@ -13,7 +13,8 @@
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: var(--primary-font), sans-serif;
+    color: var(--primary-text-color);
     font-size: var(--primary-font-size);
 }
 
@@ -44,7 +45,6 @@ body {
 }
 
 .section-title {
-    color: var(--primary-text-color);
     font-weight: var(--bold-font-weight);
     font-size: 36px;
     line-height: 42px;
@@ -91,7 +91,6 @@ header.container {
 }
 
 .menu-link {
-    color: var(--primary-text-color);
     font-weight: var(--medium-font-weight);
     line-height: 1.1;
 }
@@ -150,7 +149,6 @@ header.container {
 }
 
 .top-contained {
-    font-family: var(--primary-font);
     font-weight: var(--bold-font-weight);
     font-size: var(--secondary-font-size);
     color: var(--main-light-color);
@@ -195,7 +193,6 @@ header.container {
 }
 
 .description-main {
-    color: var(--primary-text-color);
     text-transform: uppercase;
     font-weight: var(--bold-font-weight);
     line-height: 1.1;
@@ -225,8 +222,6 @@ header.container {
 }
 
 .team-name {
-    color: var(--primary-text-color);
-    font-family: var(--primary-font);
     font-weight: var(--medium-font-weight);
     font-size: var(--secondary-font-size);
     line-height: 1.2;
@@ -237,7 +232,6 @@ header.container {
 
 .team-content {
     color: var(--secondary-text-color);
-    font-family: var(--primary-font);
     font-weight: var(--regular-font-weigh);
     font-size: var(--secondary-font-size);
     line-height: 1.2;
@@ -257,25 +251,23 @@ footer .logo-studio {
     color: var(--main-light-color);
 }
 
-.adress-link {
-    color: var(--main-light-color);
-    font-style: normal;
-    font-family: var(--primary-font);
-    font-weight: var(--regular-font-weigh);
-    font-size: var(--primary-font-size);
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-
+.adress-link,
 .mail-link,
 .tel-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-family: var(--primary-font);
     font-weight: var(--regular-font-weigh);
-    font-size: var(--primary-font-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+
+.adress-link:hover,
+.adress-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--main-light-color);
 }
 
 .contacts-list {
@@ -292,9 +284,7 @@ footer .logo-studio {
 }
 
 .filter-button {
-    color: var(--primary-text-color);
     background-color: var(--background-color-button);
-    font-family: var(--primary-font);
     font-weight: var(--medium-font-weight);
     font-size: var(--secondary-font-size);
     line-height: 1.6;
@@ -318,8 +308,6 @@ footer .logo-studio {
 }
 
 .view-title {
-    color: var(--primary-text-color);
-    font-family: var(--primary-font);
     font-weight: var(--bold-font-weight);
     font-size: 18px;
     line-height: 2;
@@ -329,10 +317,10 @@ footer .logo-studio {
 
 .view-content {
     color: var(--secondary-text-color);
-    font-family: var(--primary-font);
     font-weight: var(--regular-font-weigh);
     font-size: var(--secondary-font-size);
     line-height: 1.9;
     letter-spacing: 0.03em;
     margin: 4px 24px 20px;
 }
+
